@@ -1,24 +1,37 @@
-# ✨ Haelicx
-
 <div align="center">
 
-<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=32&duration=3000&pause=1000&color=7A5CFF&center=true&vCenter=true&width=900&lines=Advanced+GitHub+Automation;Smart+File+Downloader;Website+Capture+%26+Media+Extractor;Beautiful+Workflow+Collection" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=700&size=42&duration=2500&pause=800&color=7A5CFF&center=true&vCenter=true&multiline=true&repeat=true&width=1000&height=120&lines=✨+Haelicx+✨;Advanced+GitHub+Automation;Downloader+%7C+Web+Capture+%7C+Media+Extractor" />
 
 <br>
 
+<img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Haelicx&fontSize=70&fontAlignY=40&color=gradient&animation=fadeIn&fontColor=ffffff"/>
+
+<br><br>
+
 <p align="center">
-  <img src="https://img.shields.io/github/license/haelicx/haelicx?style=for-the-badge&color=7A5CFF">
-  <img src="https://img.shields.io/github/stars/haelicx/haelicx?style=for-the-badge&color=00C2FF">
-  <img src="https://img.shields.io/github/forks/haelicx/haelicx?style=for-the-badge&color=FF4D8D">
-  <img src="https://img.shields.io/github/actions/workflow/status/haelicx/haelicx/download.yml?style=for-the-badge&color=00FFB3">
+  <img src="https://img.shields.io/github/license/Haelicx/Github-downloader?style=for-the-badge&color=7A5CFF">
+  
+  <img src="https://img.shields.io/github/stars/Haelicx/Github-downloader?style=for-the-badge&color=00C2FF">
+  
+  <img src="https://img.shields.io/github/forks/Haelicx/Github-downloader?style=for-the-badge&color=FF4D8D">
+  
+  <img src="https://img.shields.io/github/repo-size/Haelicx/Github-downloader?style=for-the-badge&color=00FFB3">
+  
+  <img src="https://img.shields.io/github/last-commit/Haelicx/Github-downloader?style=for-the-badge&color=FFD93D">
 </p>
 
+<br>
+
+<h1>
+⚡ Haelicx ⚡
+</h1>
+
 <h3>
-⚡ Powerful GitHub Actions Toolkit for Downloading, Archiving, Organizing & Website Capturing
+A Beautiful GitHub Actions Toolkit for Downloading, Organizing, Archiving & Capturing the Web
 </h3>
 
 <p>
-Haelicx transforms your GitHub repository into a fully automated download and web-capture system with elegant workflows, media extraction, smart file organization, split archives, and stunning automation.
+Transform your GitHub repository into an automated powerhouse capable of downloading files, generating split archives, organizing content, capturing websites, extracting media assets, and maintaining everything beautifully — fully powered by GitHub Actions.
 </p>
 
 </div>
@@ -31,24 +44,26 @@ Haelicx transforms your GitHub repository into a fully automated download and we
 <tr>
 <td width="50%">
 
-### 📥 Smart Download Engine
-- Multi-URL downloads
-- Retry & failure recovery
-- Large file support
-- Automatic chunk splitting
+## 📥 Smart Download Engine
+
+- Multi URL support
+- Automatic retries
+- Split large files
 - ZIP archive generation
-- Password protected archives
+- Password protected ZIPs
+- Automatic README creation
 
 </td>
 <td width="50%">
 
-### 🌐 Advanced Website Capture
-- Full website screenshots
+## 🌐 Website Capture System
+
+- Full-page screenshots
 - HTML archiving
 - Media extraction
-- Structured page storage
+- Structured folders
 - Asset indexing
-- Timestamped snapshots
+- Timestamp snapshots
 
 </td>
 </tr>
@@ -56,22 +71,24 @@ Haelicx transforms your GitHub repository into a fully automated download and we
 <tr>
 <td width="50%">
 
-### 📂 Intelligent File Organization
-- Auto sorting split files
-- Organized folder structure
-- README generation
-- Clean repository management
+## 📂 Intelligent Organization
+
+- Sort split archives
+- Group related files
 - Smart naming logic
+- Cleaner repositories
+- Automated structure
 
 </td>
 <td width="50%">
 
-### ⚡ Fully Automated
+## ⚡ Fully Automated
+
 - GitHub Actions powered
-- Zero server required
+- No server required
 - Manual workflow triggers
-- Seamless repository integration
-- Automated commits & pushes
+- Automatic pushes
+- Seamless GitHub integration
 
 </td>
 </tr>
@@ -79,137 +96,41 @@ Haelicx transforms your GitHub repository into a fully automated download and we
 
 ---
 
-# 🎬 Workflow Collection
+# 🎬 Workflows
 
-<div align="center">
-
-| Workflow | Description | Trigger |
-|:--|:--|:--|
-| 📥 **Haelicx Download** | Download files from direct URLs, split large files, create ZIP archives, and upload automatically. | `workflow_dispatch` |
-| 📂 **Haelicx Sort Files** | Organize split archives and grouped parts into clean folders automatically. | `workflow_dispatch` |
-| 🗑 **Haelicx Clean Downloads** | Instantly clear the downloads directory and regenerate default structure. | `workflow_dispatch` |
-| 🌐 **Haelicx Browse Web** | Capture websites, screenshots, media assets, and generate structured archives. | `workflow_dispatch` |
-
-</div>
+| Workflow | Description |
+|:--|:--|
+| 📥 **Download from URL** | Download files directly from URLs with retry support and archive splitting |
+| 📂 **Sort Files** | Automatically organize split archives and grouped parts |
+| 🗑 **Clean Downloads** | Reset and clean the downloads folder safely |
+| 🌐 **Browse the Web** | Capture websites, screenshots, and media assets |
 
 ---
 
 # 🚀 Quick Start
 
-## 1️⃣ Download Files
+## 📥 Download Files
 
 ```bash
-Actions → Haelicx Download → Run workflow
+Actions → Download Workflow → Run workflow
 ```
 
-### Example URLs
+### Example
 
 ```txt
 https://example.com/movie.mp4
 https://example.com/archive.zip
-https://example.com/image.png
-```
-
-### Available Modes
-
-| Mode | Description |
-|:--|:--|
-| `normal` | Keep files in original format |
-| `zip` | Create split ZIP archives |
-
----
-
-## 📦 Download Workflow Includes
-
-```diff
-+ Multi URL support
-+ Retry system
-+ Split archives for GitHub limits
-+ Automatic README generation
-+ Repository push automation
-+ Password protected ZIP support
 ```
 
 ---
 
-# 📂 Organize Split Files
-
-Run the sorting workflow to automatically group:
-
-```txt
-file.z01
-file.z02
-file.z03
-file.zip
-```
-
-Into:
-
-```txt
-downloads/file/
-```
-
-Perfect for massive archives and chunked uploads.
-
----
-
-# 🗑 Clean Downloads
-
-The clean workflow safely resets your downloads folder:
-
-```diff
-- Removes tracked download files
-+ Recreates folder structure
-+ Generates fresh README.md
-```
-
-> ⚠️ Warning: This action is destructive and cannot be undone.
-
----
-
-# 🌐 Website Capture System
-
-Haelicx can archive entire websites automatically.
-
-## Captured Content
-
-- ✅ Full HTML page
-- ✅ Full page screenshot
-- ✅ Images & videos
-- ✅ CSS & assets
-- ✅ Structured archive folders
-- ✅ Auto generated indexes
-
----
-
-# 🧠 Generated Structure
-
-```txt
-pages/
-└── example.com/
-    └── homepage/
-        └── 2026-05-14/
-            ├── page.html
-            ├── screenshot.png
-            ├── media/
-            │   ├── image1.png
-            │   └── video1.mp4
-            └── index.md
-```
-
----
-
-# 📁 Repository Structure
+# 📂 Repository Structure
 
 ```txt
 downloads/
-├── package1/
-│   ├── archive.zip
-│   └── README.md
-│
-├── package2/
-│   ├── movie.z01
-│   ├── movie.z02
+├── package/
+│   ├── file.zip
+│   ├── file.z01
 │   └── README.md
 
 pages/
@@ -217,47 +138,37 @@ pages/
 │   ├── page.html
 │   ├── screenshot.png
 │   └── media/
-│
-├── browse.md
-└── index.md
 ```
 
 ---
 
 # ✨ Why Haelicx?
 
-<div align="center">
-
 | Traditional Method | Haelicx |
 |:--|:--|
 | Manual downloads | ⚡ Automated |
-| Messy repositories | ✨ Organized |
-| No media extraction | 🌐 Full asset capture |
-| Limited file support | 📦 Large file splitting |
-| No automation | 🤖 GitHub Actions powered |
-
-</div>
+| Messy folders | ✨ Organized |
+| No screenshots | 🌐 Full capture |
+| File size issues | 📦 Split archives |
+| No automation | 🤖 GitHub Actions |
 
 ---
 
-# 🎨 Visual Style Suggestions
+# 🎨 Animated Decorations
 
-For the ultimate GitHub profile appearance, enable:
+<div align="center">
 
-- `GitHub Dark Dimmed`
-- Animated typing SVG
-- Neon badges
-- Gradient headers
-- Custom social banners
-- Capsule render stats
+<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" />
 
-Recommended extras:
+<br><br>
 
-```md
-https://github.com/anuraghazra/github-readme-stats
-https://github.com/DenverCoder1/readme-typing-svg
-https://github.com/kyechan99/capsule-render
-```
+<img src="https://github-profile-trophy.vercel.app/?username=Haelicx&theme=tokyonight&no-frame=true&row=1&column=7"/>
+
+<br><br>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=Haelicx&theme=tokyo-night&hide_border=true"/>
+
+</div>
 
 ---
 
@@ -265,11 +176,11 @@ https://github.com/kyechan99/capsule-render
 
 <div align="center">
 
-### 👤 Creator: Haelicx
+### 👤 Haelicx
 
 📨 Telegram: **@haelicx**
 
-⭐ Feel free to fork, contribute, open issues, or submit pull requests.
+⭐ Star the repository if you like the project.
 
 </div>
 
@@ -277,14 +188,12 @@ https://github.com/kyechan99/capsule-render
 
 # 📜 License
 
-This project is licensed under the **MIT License**.
+MIT License
 
 ---
 
 <div align="center">
 
-## 💜 Made with automation, chaos, and caffeine.
-
-<img src="https://capsule-render.vercel.app/api?type=waving&height=120&section=footer&color=7A5CFF"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=140&section=footer&color=gradient"/>
 
 </div>
